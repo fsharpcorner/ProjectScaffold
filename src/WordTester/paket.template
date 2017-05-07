@@ -1,0 +1,25 @@
+type project
+title
+    WordTester
+owners
+    hez
+authors 
+    hez
+projectUrl
+    https://github.com/fsharpcorner/WordTester/hez/WordTester2
+iconUrl
+    https://github.com/fsharpcorner/WordTester/hez/WordTester2/master/docs/files/img/logo.png
+licenseUrl
+    https://github.com/fsharpcorner/WordTester/hez/WordTester2/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+copyright
+    Copyright 2015
+tags
+    fsharp
+summary
+    A tool to help reading words
+description
+    Description not set
+
+

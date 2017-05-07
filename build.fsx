@@ -28,24 +28,24 @@ open SourceLink
 
 // The name of the project
 // (used by attributes in AssemblyInfo, name of a NuGet package and directory in 'src')
-let project = "##ProjectName##"
+let project = "WordTester"
 
 // Short summary of the project
 // (used as description in AssemblyInfo and as a short summary for NuGet package)
-let summary = "##Summary##"
+let summary = "A tool to help reading words"
 
 // Longer description of the project
 // (used as a description for NuGet package; line breaks are automatically cleaned up)
-let description = "##Description##"
+let description = "Project has no description; update build.fsx"
 
 // List of author names (for NuGet package)
-let authors = [ "##Author##" ]
+let authors = [ "hez" ]
 
 // Tags for your project (for NuGet package)
-let tags = "##Tags##"
+let tags = ""
 
 // File system information
-let solutionFile  = "##ProjectName##.sln"
+let solutionFile  = "WordTester.sln"
 
 // Default target configuration
 let configuration = "Release"
@@ -55,14 +55,14 @@ let testAssemblies = "tests/**/bin" </> configuration </> "*Tests*.dll"
 
 // Git configuration (used for publishing documentation in gh-pages branch)
 // The profile where the project is posted
-let gitOwner = "##GitHome##"
-let gitHome = sprintf "%s/%s" "##GitUrl##" gitOwner
+let gitOwner = "hez"
+let gitHome = sprintf "%s/%s" "https://github.com/fsharpcorner/WordTester" gitOwner
 
 // The name of the project on GitHub
-let gitName = "##GitName##"
+let gitName = "WordTester2"
 
 // The url for the raw files hosted
-let gitRaw = environVarOrDefault "gitRaw" "##GitRawUrl##/##GitHome##"
+let gitRaw = environVarOrDefault "gitRaw" "https://github.com/fsharpcorner/WordTester/hez"
 
 // --------------------------------------------------------------------------------------
 // END TODO: The rest of the file includes standard build steps
